@@ -1,0 +1,33 @@
+<div class="mt-4 align-items-center">
+  <h2 id="activity-3">Activity 3: Cash Register</h2>
+  <img src="assets/cash_register.png" alt="cash register" class="img-fluid register-pic px-3" />
+  <button class="btn" onclick="buySnacks()" class="button">BUY</button>
+</div>
+<div class="d-flex text-center m-4">
+  <div>
+    <img onclick="addChips()" src="assets/chips.png" class="snack-pic" title="Click to buy!" />
+    <p class="text-center">$1.50</p>
+  </div>
+  <div>
+    <img onclick="addGranolaBars()" src="assets/granolaBar.png" class="snack-pic" title="Click to buy!" />
+    <p class="text-center">$3.00</p>
+  </div>
+  <div>
+    <img onclick="addCandies()" src="assets/candy.png" class="snack-pic" title="Click to buy!" />
+    <p class="text-center">$0.75</p>
+  </div>
+  <div>
+    <img onclick="addWaterBottles()" src="assets/bottledWater.png" class="snack-pic" title="Click to buy!" />
+    <p class="text-center">$3.50</p>
+  </div>
+</div>
+</div>
+<div class="bg-light">
+  <h3 class="px-3">My snacks:</h4>
+    <p class="px-3">$1.50 x <strong id="chip-count">0</strong> (chips) + $3.00 x <strong
+        id="granola-bar-count">0</strong> (granola
+      bar) + $0.75 x <strong id="candy-count">0</strong>
+      (candy)
+      + $3.50 x <strong id="water-count">0</strong> (water)</p>
+    <h1 class="px-3">Total Cost: $<span id="total">0.00</span></p>
+</div>
