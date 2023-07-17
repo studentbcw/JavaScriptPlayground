@@ -1,27 +1,27 @@
 // Answer all the questions. Make sure to use the correct data type. Check your answers after each question by clicking "Check Answers"
 
 // Ans1: I have read all the Harry Potter books: 
-let ans1 = ""
+let ans1 = "only two."
 // Ans2: My favorite video game is: 
-let ans2 = ""
-// Ans3: I am ____ years old: 
+let ans2 = "Lego batman 2 dc superheros unite"
+// Ans3: I am 11 years old: 
 let ans3 = ""
 // Ans4: When I grow up, I want to be a 
-let ans4 = ""
+let ans4 = "musition"
 // Ans5: I have a sister: 
-let ans5 = ""
+let ans5 = "she is annoying"
 // Ans6: I am in grade 
-let ans6 = ""
+let ans6 = "6"
 // Ans7: My favorite color is:  
-let ans7 = ""
+let ans7 = "purple"
 // Ans8: The kind of pet I have/want is: 
-let ans8 = ""
+let ans8 = "MONKE"
 // Ans9: My favorite numbers is: 
-let ans9 = ""
+let ans9 = "420"
 // Ans10: I was born in Idaho: 
-let ans10 = ""
+let ans10 = "si"
 // Ans11: My favorite sport is: 
-let ans11 = ""
+let ans11 = "idk i am not a geek"
 
 function draw() {
   if (typeof ans1 == 'boolean' || ans1 == "") {
